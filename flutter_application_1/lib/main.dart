@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/splash_screen_ui.dart';
+import 'package:flutter_application_1/viwes/splash_screen_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 //-----------------------------------------------

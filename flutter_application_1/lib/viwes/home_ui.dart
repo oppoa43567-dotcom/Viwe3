@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/about_ui.dart';
-import 'package:flutter_application_1/bmi_ui.dart';
-import 'package:flutter_application_1/bmr_ui.dart';
+import 'package:flutter_application_1/viwes/about_ui.dart';
+import 'package:flutter_application_1/viwes/bmi_ui.dart';
+import 'package:flutter_application_1/viwes/bmr_ui.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomeUI extends StatefulWidget {
@@ -18,8 +18,8 @@ class _HomeUIState extends State<HomeUI> {
   // สร้างตัวแปรประเภท List เก็บหน้าจอ BmiUI, AboutUI, BmrUI
   // List เหมือนกับ Array
   List subViewShow = [
-    AboutUi(),
     BmiUI(),
+    AboutUi(),
     BmrUI(),
   ];
 

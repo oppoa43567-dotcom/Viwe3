@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/home_ui.dart';
+import 'package:flutter_application_1/viwes/home_ui.dart';
 
 class SplashScreenUi extends StatefulWidget {
   const SplashScreenUi({super.key});
