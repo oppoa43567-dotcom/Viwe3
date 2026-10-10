@@ -94,7 +94,7 @@ class _BmrUIState extends State<BmrUI> {
                           minimumSize: Size(
                               0, MediaQuery.of(context).size.height * 0.055),
                           backgroundColor: !isMale
-                              ? Color.fromARGB(255, 179, 217, 242)
+                              ? Color.fromARGB(255, 241, 137, 198)
                               : Colors.white,
                           elevation: !isMale ? 0 : 1,
                           shape: RoundedRectangleBorder(
