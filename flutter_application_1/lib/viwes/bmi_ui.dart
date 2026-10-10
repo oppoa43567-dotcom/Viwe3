@@ -10,6 +10,8 @@ class BmiUI extends StatefulWidget {
 class _BmiUIState extends State<BmiUI> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 50, 241, 11),
+    );
   }
 }
