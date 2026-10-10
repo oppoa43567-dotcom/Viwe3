@@ -20,7 +20,7 @@ class _HomeUIState extends State<HomeUI> {
   List subViewShow = [
     BmiUI(),
     AboutUi(),
-    BmrUI(),
+    BmrUi(),
   ];
 
   @override
